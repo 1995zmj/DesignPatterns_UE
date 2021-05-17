@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "SH_UE4.25.3",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DesignPatterns_UE",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

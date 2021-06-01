@@ -17,14 +17,14 @@ class DESIGNPATTERNS_UE_API UNotification : public UObject, public IINotificatio
 	GENERATED_BODY()
 private:
 	FString _name;
-	FString _body;
+	UObject const* _body;
 	FString _type;
 public:
 	virtual FString const& GetName() const;
 
-	virtual void SetBody(FString const& body);
-
-	virtual FString GetBody() const;
+	virtual void SetBody(UObject const* body);
+	
+	virtual UObject const* GetBody() const;
 	
 	virtual void SetType(FString const& type);
 	

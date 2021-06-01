@@ -3,12 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "INotification.h"
 #include "UObject/Interface.h"
-#include "INotification.generated.h"
+#include "IObserver.generated.h"
 
 // This class does not need to be modified.
 UINTERFACE(MinimalAPI)
-class UINotification : public UInterface
+class UIObserver : public UInterface
 {
 	GENERATED_BODY()
 };
@@ -16,15 +18,11 @@ class UINotification : public UInterface
 /**
  * 
  */
-class DESIGNPATTERNS_UE_API IINotification
+class DESIGNPATTERNS_UE_API IIObserver
 {
 	GENERATED_BODY()
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	virtual FString const& GetName() const = 0;
-	virtual void SetBody(UObject const* body) = 0;
-	virtual UObject const* GetBody() const = 0;
-	virtual void SetType(FString const& type) = 0;
-	virtual FString ToString() const = 0;
+	virtual void NotifyObserver(IINotification const* Notification) = 0;
 };

@@ -3,13 +3,13 @@
 
 #include "Observer.h"
 
-void UObserver::Init(UObject* object, TFunction<void(IINotification*)> method)
+void UObserver::Init(UObject* object, TFunction<void(IINotification const*)> method)
 {
 	_object = object;
 	_method = method;
 }
 
-void UObserver::NotifyObserver(IINotification* notification)
+void UObserver::NotifyObserver(IINotification const* notification)
 {
 	_method(notification);
 }

@@ -8,12 +8,12 @@ FString const& UNotification::GetName() const
 	return _name;
 }
 
-void UNotification::SetBody(FString const& body)
+void UNotification::SetBody(UObject const* body)
 {
 	_body = body;
 }
 
-FString UNotification::GetBody() const
+UObject const* UNotification::GetBody() const
 {
 	return _body;
 }

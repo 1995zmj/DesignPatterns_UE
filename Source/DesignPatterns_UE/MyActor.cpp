@@ -21,34 +21,17 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 	auto p = NewObject<UObserver>();
-	p->Init(this,[this](IINotification* notification)
+	p->Init(this,[this](IINotification const* notification)
 	{
-		FString body = notification->GetBody();
-		UE_LOG(LogTemp, Warning, TEXT("observer %s"), *body);
+		
+		// FString body = notification->GetBody();
+		UE_LOG(LogTemp, Warning, TEXT("observer %s"), *(notification->GetName()));
 		Test(GetName(),2);
 	});
 
-	// auto data = NewObject<UNotification>();
+	auto data = NewObject<UNotification>();
 	// data->SetBody(TEXT("hello"));
-	// p->NotifyObserver(data);
-	
-	
-	// mo->InitializeNotifier(TEXT("hello"));
-	// UE_LOG(LogTemp, Warning, TEXT("%s"),*mo->GetMultitonKey());
-
-	// mo->BindFuntionPtr([this](FString t)
-	// {
-	// 	UE_LOG(LogTemp, Warning, TEXT("%s"), *t);
-	// });
-	// mo->RegFunTwo(this,&AMyActor::Test);
-
-	// RegFunOne([this](FString str)
-	// {
-	// 	UE_LOG(LogTemp, Warning, TEXT("%s"), *str);
-	// });
-
-	RegFunTwo(this,&AMyActor::Test);
-	RegFunThree(this,&AMyActor::Test);
+	p->NotifyObserver(data);
 }
 
 // Called every frame

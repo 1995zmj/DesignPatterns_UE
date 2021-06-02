@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 
+#include "DesignPatterns_UE/PureMVC/Interfaces/IView.h"
 #include "DesignPatterns_UE/PureMVC/Patterns/Observer/Notifier.h"
 #include "UObject/NoExportTypes.h"
 #include "Facade.generated.h"
@@ -18,7 +19,7 @@ class DESIGNPATTERNS_UE_API UFacade : public UNotifier
 private:
 	// controller
 	// model
-	// view
+	IIView const* _view;
 protected:
 	virtual void InitializeController();
 	virtual void InitializeModel();
@@ -27,6 +28,8 @@ protected:
 public:
 	virtual void InitializeFacade();
 
+	// Mediator
+	virtual IIView const* GetView();
 	
 	// Command
 	

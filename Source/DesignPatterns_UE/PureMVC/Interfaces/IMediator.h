@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 
 #include "INotification.h"
+#include "INotifier.h"
 #include "UObject/Interface.h"
 #include "IMediator.generated.h"
 
@@ -24,12 +25,12 @@ class DESIGNPATTERNS_UE_API IIMediator
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	typedef TArray<FString>* NotificationNamesPtr;
+	typedef TArray<FString> NotificationNames;
 	
 	virtual FString const& GetMediatorName() const = 0;
 	virtual UObject const* GetViewComponent() const = 0;
 	virtual void SetViewComponent(UObject const* viewComponent) = 0;
-	virtual NotificationNamesPtr ListNotificationInterests() const = 0;
+	virtual NotificationNames ListNotificationInterests() const = 0;
 	virtual void HandleNotification(IINotification const& notification) = 0;
 	virtual void OnRegister() = 0;
 	virtual void OnRemove() = 0;

@@ -3,6 +3,11 @@
 
 #include "Mediator.h"
 
+void UMediator::SetMediatorName(FString name)
+{
+	_mediatorName = name;
+}
+
 FString const& UMediator::GetMediatorName() const
 {
 	return _mediatorName;
@@ -18,13 +23,16 @@ void UMediator::SetViewComponent(UObject const* viewComponent)
 	_viewComponent = viewComponent;
 }
 
-IIMediator::NotificationNamesPtr UMediator::ListNotificationInterests() const
+IIMediator::NotificationNames UMediator::ListNotificationInterests() const
 {
-	return new TArray<FString>();
+	NotificationNames names;
+	names.Add("ttt");
+	return names;
 }
 
 void UMediator::HandleNotification(IINotification const& notification)
 {
+	UE_LOG(LogTemp,Warning,TEXT("HandleNotification 收到消息 %s"),*(notification.GetName()));
 }
 
 void UMediator::OnRegister()

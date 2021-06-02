@@ -13,14 +13,14 @@
  * 
  */
 UCLASS()
-class DESIGNPATTERNS_UE_API UObserver : public UObject,public IIObserver
+class DESIGNPATTERNS_UE_API UObserver : public UObject, public IIObserver
 {
 	GENERATED_BODY()
 private:
 	UObject* _object;
-	TFunction<void(IINotification const*)> _method;
+	TFunction<void(IINotification const&)> _method;
 public:	
-	virtual void Init(UObject* object,TFunction<void(IINotification const*)> method);
-	virtual void NotifyObserver(IINotification const* notification);
-	// virtual void CompareNotifyContext(UObject const* object);
+	virtual void Init(UObject* object,TFunction<void(IINotification const&)> method);
+	virtual void NotifyObserver(IINotification const& notification) override;
+	virtual bool CompareNotifyContext(UObject const* object) const override;
 };

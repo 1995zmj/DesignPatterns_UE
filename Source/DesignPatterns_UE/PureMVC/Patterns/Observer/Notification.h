@@ -20,6 +20,10 @@ private:
 	UObject const* _body;
 	FString _type;
 public:
+	virtual void init(FString name,UObject* body,FString type);
+
+	void SetName(FString name);
+	
 	virtual FString const& GetName() const;
 
 	virtual void SetBody(UObject const* body);

@@ -18,7 +18,7 @@ class UINotifier : public UInterface
 /**
  * 
  */
-class DESIGNPATTERNS_UE_API IINotifier
+class DESIGNPATTERNS_UE_API  IINotifier
 {
 	GENERATED_BODY()
 

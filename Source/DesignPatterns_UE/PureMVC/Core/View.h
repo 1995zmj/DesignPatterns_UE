@@ -16,11 +16,13 @@ class DESIGNPATTERNS_UE_API UView : public UObject, public IIView
 {
 	GENERATED_BODY()
 private:
+	FString _multitonKey;
 	TMap<FString,TArray<IIObserver*>> _observerMap;
+	TMap<FString,IIMediator*> _mediatorMap;
 public:
-	virtual void init();
-	virtual void RegisterObserver(FString const& notificationName, IIObserver* observer) override;
-	virtual void NotifyObservers(IINotification const& notification) override;
+	virtual void init(FString key);
+	virtual void RegisterObserver(FString const& notificationName, IIObserver* observer) ;
+	virtual void NotifyObservers(IINotification const& notification) ;
 	virtual void RemoveObserver(FString const& notificationName, UObject* notifyContext) override;
 
 	virtual void RegisterMediator(IIMediator* mediator) override;
@@ -28,5 +30,5 @@ public:
 	virtual IIMediator& RetrieveMediator(FString const& mediatorName) override;
 	virtual IIMediator* RemoveMediator(FString const& mediatorName) override;
 	virtual bool HasMediator(FString const& mediatorName) const override;
-	virtual IIMediator::NotificationNamesPtr ListMediatorNames() const override;
+	virtual MediatorNames ListMediatorNames() const override;
 };

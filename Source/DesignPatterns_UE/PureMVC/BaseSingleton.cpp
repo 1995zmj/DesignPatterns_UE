@@ -17,7 +17,12 @@ UBaseSingleton* UBaseSingleton::GetInstance()
 
 FString UBaseSingleton::GetString()
 {
+	return TEXT("sss");
+}
+
+UFacade* UBaseSingleton::GetFacade()
+{
 	UFacade* k = NewObject<UFacade>();
 	k->InitializeFacade();
-	return TEXT("sss");
+	return k;
 }

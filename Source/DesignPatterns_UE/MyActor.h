@@ -24,6 +24,11 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void Test(FString t,int32 num);
+	TArray<FString> arrayPtr;
+	TArray<FString>* GetArrayPtr();
+	TArray<FString> GetArray();
+	int testNum = 2;
+	int* GetNumberPtr();
 
 	TFunction<void(FString)> tFuncOne;
 	void RegFunOne(TFunction<void(FString)> targetFun)

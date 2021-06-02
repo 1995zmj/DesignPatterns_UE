@@ -20,7 +20,7 @@ class DESIGNPATTERNS_UE_API UNotifier : public UObject, public IINotifier
 	
 	public:
 	
-	virtual void SendNotification(FString const& notificationName,FString const& body,FString const& type);
-	virtual void InitializeNotifier(FString key) ;
-	virtual FString GetMultitonKey();
+	virtual void SendNotification(FString const& notificationName,FString const& body,FString const& type) override;
+	virtual void InitializeNotifier(FString key) override;
+	virtual FString GetMultitonKey() override;
 };

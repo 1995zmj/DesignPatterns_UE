@@ -3,6 +3,18 @@
 
 #include "Notification.h"
 
+void UNotification::init(FString name,UObject* body,FString type)
+{
+	_name = name;	
+	_body = body;
+	_type = type;
+}
+
+void UNotification::SetName(FString name)
+{
+	_name = name;
+}
+
 FString const& UNotification::GetName() const
 {
 	return _name;

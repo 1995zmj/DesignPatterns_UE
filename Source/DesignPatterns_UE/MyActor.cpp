@@ -2,7 +2,11 @@
 
 
 #include "MyActor.h"
+
+#include "MyTriggerBox.h"
 #include "BehaviorTree/BehaviorTreeTypes.h"
+#include "Components/BoxComponent.h"
+#include "Components/SphereComponent.h"
 #include "PureMVC/BaseSingleton.h"
 #include "PureMVC/Core/View.h"
 #include "PureMVC/Patterns/Facade/Facade.h"
@@ -16,16 +20,27 @@ AMyActor::AMyActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	USphereComponent* box = CreateDefaultSubobject<USphereComponent>(TEXT("Trigger"));
+	// UBoxComponent* ubox = CreateDefaultSubobject<UBoxComponent>(TEXT("Box"));
+	// ubox->SetupAttachment(RootComponent);
+	// RootComponent = ubox;
+	RootComponent = box;
+	// box->SetupAttachment(RootComponent);
+	
 }
 
 // Called when the game starts or when spawned
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
+
+	// auto k = CreateDefaultSubobject<ATriggerBox>(TEXT("ttttt"));
+	// k->AttachToActor(this,FAttachmentTransformRules::KeepRelativeTransform,FName("66"));
+	
 	// auto facade = Cast<UBaseSingleton>(GEngine->GameSingleton)->GetFacade();
 	// auto view = facade->GetView();
-
+	auto name = GetName();
+	UE_LOG(LogTemp, Warning, TEXT("name %s"), *(name));
 	UView* view = NewObject<UView>();
 	view->init("testView");
 	UMediator* mediator = NewObject<UMediator>();
@@ -45,16 +60,12 @@ void AMyActor::BeginPlay()
 	// auto mediator = NewObject<UMediator>();
 	// mediator->SetMediatorName("fff");
 	// view->RegisterMediator(mediator);
-	auto list = GetArrayPtr();
-	for (auto name : *list)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("name %s"), *(name));
-	}
-	TArray<int> k;
-	k.Init(2,2);
-	auto p = &k;
-	auto pt = GetNumberPtr();
-	UE_LOG(LogTemp, Warning, TEXT("name %d"), *pt );
+	// auto list = GetArrayPtr();
+	// for (auto name : *list)
+	// {
+	// 	UE_LOG(LogTemp, Warning, TEXT("name %s"), *(name));
+	// }
+	
 
 }
 

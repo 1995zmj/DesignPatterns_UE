@@ -4,23 +4,21 @@
 
 #include "CoreMinimal.h"
 
-#include "DesignPatterns_UE/PureMVC/Interfaces/INotifier.h"
+#include "Notification.h"
 #include "UObject/NoExportTypes.h"
 #include "Notifier.generated.h"
 /**
  * 
  */
 UCLASS()
-class DESIGNPATTERNS_UE_API UNotifier : public UObject, public IINotifier
+class DESIGNPATTERNS_UE_API UNotifier : public UObject
 {
 	GENERATED_BODY()
 
-	protected:
+protected:
 	FString _multitonKey;
-	
-	public:
-	
-	virtual void SendNotification(FString const& notificationName,FString const& body,FString const& type) override;
-	virtual void InitializeNotifier(FString key) override;
-	virtual FString GetMultitonKey() override;
+public:
+	virtual void SendNotification(FString const& notificationName,FNotificationBody body,FString const& type);
+	void InitializeNotifier(FString key);
+	FString GetMultitonKey();
 };

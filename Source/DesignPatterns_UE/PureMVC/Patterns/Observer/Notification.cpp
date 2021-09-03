@@ -3,7 +3,7 @@
 
 #include "Notification.h"
 
-void UNotification::init(FString name,UObject* body,FString type)
+void UNotification::init(FString name,FNotificationBody body,FString type)
 {
 	_name = name;	
 	_body = body;
@@ -20,12 +20,12 @@ FString const& UNotification::GetName() const
 	return _name;
 }
 
-void UNotification::SetBody(UObject const* body)
+void UNotification::SetBody(FNotificationBody body)
 {
 	_body = body;
 }
 
-UObject const* UNotification::GetBody() const
+FNotificationBody UNotification::GetBody() const
 {
 	return _body;
 }

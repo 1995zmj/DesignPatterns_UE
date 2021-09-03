@@ -3,24 +3,29 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
-#include "DesignPatterns_UE/PureMVC/Interfaces/INotification.h"
-#include "DesignPatterns_UE/PureMVC/Interfaces/IObserver.h"
 #include "UObject/NoExportTypes.h"
 #include "Observer.generated.h"
 
+class UNotification;
+class UNotifier;
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FNotifyMethod, UNotification*, notification);
 /**
  * 
  */
 UCLASS()
-class DESIGNPATTERNS_UE_API UObserver : public UObject, public IIObserver
+class DESIGNPATTERNS_UE_API UObserver : public UObject
 {
 	GENERATED_BODY()
 private:
-	UObject* _object;
-	TFunction<void(IINotification const&)> _method;
-public:	
-	virtual void Init(UObject* object,TFunction<void(IINotification const&)> method);
-	virtual void NotifyObserver(IINotification const& notification) override;
-	virtual bool CompareNotifyContext(UObject const* object) const override;
+	UNotifier* _notifier;
+	TFunction<void(UNotification*)> _notifyMethod;
+public:
+	FNotifyMethod notifyMethodDelegate;
+
+	void Init(TFunction<void(UNotification*)> notifyMethod,UNotifier* notifyContext);
+	void NotifyObserver(UNotification* notification);
+	void SetNotifyContext(UNotifier* notifyContext);
+	//FNotifyMethod& GetNotifyMethod();
+	bool CompareNotifyContext(UNotifier const* notifyContext) const;
 };

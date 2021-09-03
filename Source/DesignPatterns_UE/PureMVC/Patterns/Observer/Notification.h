@@ -3,32 +3,39 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
-#include "DesignPatterns_UE/PureMVC/Interfaces/INotification.h"
 #include "UObject/NoExportTypes.h"
 #include "Notification.generated.h"
+
+USTRUCT()
+struct FNotificationBody
+{
+	GENERATED_BODY()
+	int32 num = 1;
+};
+
+//	TODO 改成结构体是不是更好
 
 /**
  * 
  */
 UCLASS()
-class DESIGNPATTERNS_UE_API UNotification : public UObject, public IINotification
+class DESIGNPATTERNS_UE_API  UNotification : public UObject
 {
 	GENERATED_BODY()
 private:
 	FString _name;
-	UObject const* _body;
+	FNotificationBody _body;
 	FString _type;
 public:
-	virtual void init(FString name,UObject* body,FString type);
+	virtual void init(FString name,FNotificationBody body,FString type);
 
 	void SetName(FString name);
 	
 	virtual FString const& GetName() const;
 
-	virtual void SetBody(UObject const* body);
+	virtual void SetBody(FNotificationBody body);
 	
-	virtual UObject const* GetBody() const;
+	virtual FNotificationBody GetBody() const;
 	
 	virtual void SetType(FString const& type);
 	

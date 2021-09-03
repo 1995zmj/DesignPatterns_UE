@@ -2,19 +2,32 @@
 
 
 #include "Observer.h"
+#include "DesignPatterns_UE/PureMVC/Patterns/Observer/Notification.h"
+#include "DesignPatterns_UE/PureMVC/Patterns/Observer/Notifier.h"
 
-void UObserver::Init(UObject* object, TFunction<void(IINotification const&)> method)
+void UObserver::Init(TFunction<void(UNotification*)> notifyMethod, UNotifier* notifyContext)
 {
-	_object = object;
-	_method = method;
+	_notifier = notifyContext;
+	_notifyMethod = notifyMethod;
 }
 
-void UObserver::NotifyObserver(IINotification const& notification)
+void UObserver::NotifyObserver(UNotification* notification)
 {
-	_method(notification);
+	notifyMethodDelegate.Broadcast(notification);
+	//_notifyMethod(notification);
 }
 
-bool UObserver::CompareNotifyContext(UObject const* object) const
+void UObserver::SetNotifyContext(UNotifier* notifyContext)
 {
-	return _object == object;
+	_notifier = notifyContext;
+}
+
+//FNotifyMethod& UObserver::GetNotifyMethod()
+//{
+//	return  _notifyMethod;
+//}
+
+bool UObserver::CompareNotifyContext(UNotifier const* notifyContext) const
+{
+	return  _notifier == notifyContext;
 }

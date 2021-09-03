@@ -23,6 +23,6 @@ FString UBaseSingleton::GetString()
 UFacade* UBaseSingleton::GetFacade()
 {
 	UFacade* k = NewObject<UFacade>();
-	k->InitializeFacade();
+	// k->InitializeFacade();
 	return k;
 }

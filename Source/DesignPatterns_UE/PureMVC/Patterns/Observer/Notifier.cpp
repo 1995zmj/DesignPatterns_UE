@@ -3,7 +3,7 @@
 
 #include "Notifier.h"
 
-void UNotifier::SendNotification(FString const& notificationName,FString const& body,FString const& type)
+void UNotifier::SendNotification(FString const& notificationName,FNotificationBody body,FString const& type)
 {
 	
 }

@@ -2,6 +2,8 @@
 
 
 #include "Mediator.h"
+#include "DesignPatterns_UE/PureMVC/Patterns/Observer/Notification.h"
+#include "DesignPatterns_UE/PureMVC/Interfaces/ViewComponentInterface.h"
 
 void UMediator::SetMediatorName(FString name)
 {
@@ -13,26 +15,26 @@ FString const& UMediator::GetMediatorName() const
 	return _mediatorName;
 }
 
-UObject const* UMediator::GetViewComponent() const
+IViewComponentInterface* UMediator::GetViewComponent() const
 {
 	return _viewComponent;
 }
 
-void UMediator::SetViewComponent(UObject const* viewComponent) 
+void UMediator::SetViewComponent(IViewComponentInterface* viewComponent) 
 {
 	_viewComponent = viewComponent;
 }
 
-IIMediator::NotificationNames UMediator::ListNotificationInterests() const
+UMediator::NotificationNames UMediator::ListNotificationInterests() const
 {
 	NotificationNames names;
 	names.Add("ttt");
 	return names;
 }
 
-void UMediator::HandleNotification(IINotification const& notification)
+void UMediator::HandleNotification(UNotification* notification)
 {
-	UE_LOG(LogTemp,Warning,TEXT("HandleNotification 收到消息 %s"),*(notification.GetName()));
+	UE_LOG(LogTemp,Warning,TEXT("HandleNotification 收到消息 %s"),*(notification->GetName()));
 }
 
 void UMediator::OnRegister()

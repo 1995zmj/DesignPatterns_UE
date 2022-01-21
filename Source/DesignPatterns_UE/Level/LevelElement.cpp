@@ -3,6 +3,7 @@
 
 #include "LevelElement.h"
 #include "StateComponent.h"
+#include "../Load/GameAssetManager.h"
 
 // Sets default values
 ALevelElement::ALevelElement()
@@ -28,5 +29,10 @@ void ALevelElement::EndPlay(const EEndPlayReason::Type EndPlayReason)
 void ALevelElement::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+FPrimaryAssetId ALevelElement::GetPrimaryAssetId() const
+{
+	return FPrimaryAssetId(UGameAssetManager::LevelElementType, GetFName());
 }
 

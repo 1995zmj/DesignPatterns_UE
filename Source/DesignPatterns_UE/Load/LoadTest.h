@@ -26,25 +26,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* StaticMeshComp;
+	UFUNCTION(BlueprintCallable)
+	void LoadActor();
 
-	UPROPERTY(EditAnywhere)
-	UChildActorComponent* ChildActorComp;
-	
-	UPROPERTY(EditAnywhere)
-	FSoftObjectPath path;
-	UPROPERTY(EditAnywhere)
-	FSoftClassPath actorPath;
 
-	
-
-	TSharedPtr<FStreamableHandle> handle;
-	
-	void Load();
-
-	void StreamableManagerOperate();
-
-	void StreamableManagerLoadComplete();
-
+	UFUNCTION(BlueprintCallable)
+	void LoadStreamLevel();
 };

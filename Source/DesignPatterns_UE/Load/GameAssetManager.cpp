@@ -2,11 +2,13 @@
 
 
 #include "GameAssetManager.h"
+#include "DesignPatterns_UE/Level/LevelElement.h"
 
 const FPrimaryAssetType UGameAssetManager::PotionItemType = TEXT("Potion");
 const FPrimaryAssetType UGameAssetManager::SkillItemType = TEXT("Skill");
 const FPrimaryAssetType UGameAssetManager::TokenItemType = TEXT("Token");
 const FPrimaryAssetType UGameAssetManager::WeaponItemType = TEXT("Weapon");
+const FPrimaryAssetType UGameAssetManager::LevelElementType = TEXT("LevelElementType");
 
 
 UGameAssetManager& UGameAssetManager::Get()
@@ -26,8 +28,9 @@ UGameAssetManager& UGameAssetManager::Get()
 
 void UGameAssetManager::StartInitialLoading()
 {
-	Super::StartInitialLoading();
+	ScanPathForPrimaryAssets(LevelElementType, TEXT("/Game/Element/Editor/Tts"), ALevelElement::StaticClass(), true);
 }
+
 
 void UGameAssetManager::ForceLoadItem(const FPrimaryAssetId& PrimaryAssetId, bool bLogWarning)
 {

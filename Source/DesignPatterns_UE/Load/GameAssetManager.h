@@ -21,7 +21,8 @@ public:
 	static const FPrimaryAssetType SkillItemType;
 	static const FPrimaryAssetType TokenItemType;
 	static const FPrimaryAssetType WeaponItemType;
-
+	static const FPrimaryAssetType LevelElementType;
+	
 	static UGameAssetManager& Get();
 	
 	virtual void StartInitialLoading() override;

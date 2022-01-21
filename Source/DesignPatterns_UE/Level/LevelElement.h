@@ -28,4 +28,6 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UStateComponent* MyStateComponent;
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const;
 };

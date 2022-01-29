@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="qTPcVuKwp9ivYJZm04wb" name="第 1 页">
-        <mxGraphModel dx="1801" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1639" dy="1610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -171,18 +171,12 @@
         </mxGraphModel>
     </diagram>
     <diagram id="XpEDep1fThdQtdH3oPbM" name="第 2 页">
-        <mxGraphModel dx="1771" dy="2133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="4089" dy="2492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-0"/>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-1" parent="-4jIvJIA9d3lIVQqnTIh-0"/>
-                <mxCell id="-4jIvJIA9d3lIVQqnTIh-2" value="UAbilityTask" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="570" y="90" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="-4jIvJIA9d3lIVQqnTIh-3" value="UAbilitySystemComponent" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="200" y="100" width="120" height="60" as="geometry"/>
-                </mxCell>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-4" value="ASC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="90" y="110" width="40" height="20" as="geometry"/>
+                    <mxGeometry x="-1140" y="-160" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-5" value="&lt;div&gt;一个可激活的能力规格，托管在能力系统组件上。这定义了什么是能力(什么类，什么级别，输入绑定等)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;并且还保持运行时状态，必须保持在被实例化/激活的能力之外。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
                     <mxGeometry x="1430" y="80" width="560" height="50" as="geometry"/>
@@ -207,52 +201,192 @@
                     <mxGeometry x="1340" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-7" value="FGameplayAbilitySpecContainer" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="1270" y="-80" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="970" y="-150" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-8" value="FGameplayAbilitySpecHandle" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="1100" y="60" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1045" y="60" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-9" value="FGameplayAbilityActivationInfo" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="1140" y="300" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1190" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-10" value="网络相关的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="1040" y="320" width="80" height="20" as="geometry"/>
+                    <mxGeometry x="1180" y="310" width="80" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="stV1CIeg4ScqyAa0e8UO-0" value="Handle指向一个特定的授予能力。这些都是全球独一无二的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
                     <mxGeometry x="940" y="30" width="330" height="20" as="geometry"/>
                 </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-14" style="edgeStyle=none;html=1;" edge="1" parent="-4jIvJIA9d3lIVQqnTIh-1" source="_12JZrvVxvkap0576MRR-2" target="cFiO1pbqRD985ICeMoI--3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;拥有&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a6RdpHkwp7PFtIJuDRD2-14">
+                    <mxGeometry x="-0.3032" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-22" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="-4jIvJIA9d3lIVQqnTIh-1" source="_12JZrvVxvkap0576MRR-2" target="-4jIvJIA9d3lIVQqnTIh-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="_12JZrvVxvkap0576MRR-2" value="UGameplayAbility" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="1100" y="170" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="790" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="OH2ZPXwykIhi98He8nAq-0" value="UAbilitySystemComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
-                    <mxGeometry x="2210" y="-240" width="120" height="60" as="geometry"/>
+                <mxCell id="OH2ZPXwykIhi98He8nAq-0" value="UAbilitySystemComponent" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
+                    <mxGeometry x="-1050" y="-180" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="OH2ZPXwykIhi98He8nAq-1" value="UGameplayTasksComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
-                    <mxGeometry x="2030" y="-360" width="120" height="60" as="geometry"/>
+                <mxCell id="OH2ZPXwykIhi98He8nAq-1" value="UGameplayTasksComponent" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
+                    <mxGeometry x="-1040" y="-290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="erNqudw0cMtWoHLFvt-2-0" value="IGameplayTagAssetInterface" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
-                    <mxGeometry x="2420" y="-370" width="120" height="60" as="geometry"/>
+                <mxCell id="erNqudw0cMtWoHLFvt-2-0" value="IGameplayTagAssetInterface" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
+                    <mxGeometry x="-1240" y="-280" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="erNqudw0cMtWoHLFvt-2-1" value="IAbilitySystemReplicationProxyInterface" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
-                    <mxGeometry x="2230" y="-370" width="120" height="60" as="geometry"/>
+                <mxCell id="erNqudw0cMtWoHLFvt-2-1" value="IAbilitySystemReplicationProxyInterface" style="whiteSpace=wrap;html=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
+                    <mxGeometry x="-840" y="-270" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="l2Nt3AYP2lTrJt597P1_-0" value="GetOwnedGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
-                    <mxGeometry x="2590" y="-600" width="120" height="80" as="geometry"/>
+                <mxCell id="cFiO1pbqRD985ICeMoI--0" value="FPredictionKey" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="3000" y="500" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="l2Nt3AYP2lTrJt597P1_-1" value="HasMatchingGameplayTag" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
-                    <mxGeometry x="2600" y="-490" width="120" height="80" as="geometry"/>
+                <mxCell id="cFiO1pbqRD985ICeMoI--1" value="客户端预测的结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="3010" y="460" width="110" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l2Nt3AYP2lTrJt597P1_-2" value="HasAllMatchingGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
-                    <mxGeometry x="2610" y="-380" width="120" height="80" as="geometry"/>
+                <mxCell id="cFiO1pbqRD985ICeMoI--2" value="FPredictionKeyDelegates" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="2990" y="610" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="l2Nt3AYP2lTrJt597P1_-3" value="HasAnyMatchingGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
-                    <mxGeometry x="2610" y="-270" width="120" height="80" as="geometry"/>
+                <mxCell id="cFiO1pbqRD985ICeMoI--3" value="UAbilityTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="960" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cFiO1pbqRD985ICeMoI--9" value="IGameplayTaskOwnerInterface" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="770" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-3" value="FAbilityTriggerData" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="561" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-4" value="EGameplayAbilityTriggerSource" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="561" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-5" value="能力触发的类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="520" y="230" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-6" value="EGameplayAbilityInstancingPolicy" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="550" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-7" value="EGameplayAbilityReplicationPolicy" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="550" y="520" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-8" value="实例的策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="530" y="390" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-9" value="复制的策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="430" y="540" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-10" value="EGameplayAbilityNetExecutionPolicy" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="561" y="610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-11" value="网络执行策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="420" y="630" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-12" value="EGameplayAbilityNetSecurityPolicy" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="550" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-13" value="在网络哪里执行的策略&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="380" y="730" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-17" value="FGameplayAbilityActorInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="200" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-18" value="与能力相关的拥有者信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="125" y="20" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-19" value="FGameplayAbilityActivationInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="294" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-21" value="当前能力的激活信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="200" y="270" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-23" value="FGameplayEffectContextHandle" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1630" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-24" value="FGameplayEffectContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1830" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-25" value="&lt;div&gt;*存储启动器和相关数据的数据结构，如位置和目标&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*游戏可以子类化这个结构，并添加游戏特定的信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*它在执行过程中传递，所以它是一个很好的地方来跟踪一个执行的瞬态信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1640" y="450" width="420" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-26" value="FGameplayAbilityTargetDataHandle" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1640" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-27" value="目标数据句柄，给服务器用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1510" y="680" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-28" value="FGameplayAbilityTargetData" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1850" y="690" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-29" value="目标数据的通用结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1770" y="660" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6RdpHkwp7PFtIJuDRD2-30" value="看 ability 219" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="870" y="670" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--0" value="&lt;div&gt;&lt;div&gt;TryActivateAbility&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-1103.5" y="107.5" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--1" value="FindAbilitySpecFromHandle" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-950.5" y="107.5" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--2" value="等级 输入 数量什么的数据封装" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1450" y="160" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--3" value="&lt;div&gt;ActivatableAbilities&lt;br&gt;&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-947" y="-90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--4" value="当前状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1450" y="200" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--5" value="AbilityActorInfo" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-1160" y="-80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--6" value="InternalTryActivateAbility" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-790.5" y="112.5" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--7" value="CanActivateAbility" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-360" y="450" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--9" value="UAbilitySystemGlobals" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-260" y="-620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--10" value="CallActivateAbility" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-220" y="450" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--11" value="PreActivate" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-80" y="450" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--12" value="ActivateAbility" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-200" y="600" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--14" value="EndAbility" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-210" y="700" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--15" value="要主动调用这个才能结束能力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-400" y="650" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--16" value="能力的 花费和CD 是 GE 控制的&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-460" y="600" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1AR0euJa8T_6pXfAFNG--18" value="tag 控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="-430" y="430" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JDy4SxmQv1P4dzv_L-Ox-0" value="UAbilityTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="2440" y="-350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JDy4SxmQv1P4dzv_L-Ox-1" value="UGameplayTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="2440" y="-450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="CUNRP_gUEXPwjGRduuP9-1" value="FGameplayEventData" style="whiteSpace=wrap;html=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="2700" y="-400" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="Dn8YD0j0zeCRZnQnaciP" name="第 3 页">
-        <mxGraphModel dx="974" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1948" dy="2227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="-YvzQ3wBEwrn5XlmwnoC-0"/>
                 <mxCell id="-YvzQ3wBEwrn5XlmwnoC-1" parent="-YvzQ3wBEwrn5XlmwnoC-0"/>
@@ -455,7 +589,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="wq_htuL9XIsYNzcytwPu" name="GamePlayTask">
-        <mxGraphModel dx="1384" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="4723" dy="2116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="_Zz50gURGPLTKjzgj0c9-0"/>
                 <mxCell id="_Zz50gURGPLTKjzgj0c9-1" parent="_Zz50gURGPLTKjzgj0c9-0"/>
@@ -664,7 +798,7 @@
                 <mxCell id="X4zvpAcgWdYJGE3rZAku-14" value="有锁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="1280" y="1540" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_Zz50gURGPLTKjzgj0c9-1" source="X4zvpAcgWdYJGE3rZAku-15" target="SeEceEhykzTKspny9k3_-11">
+                <mxCell id="SeEceEhykzTKspny9k3_-12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="_Zz50gURGPLTKjzgj0c9-1" source="X4zvpAcgWdYJGE3rZAku-15" target="SeEceEhykzTKspny9k3_-11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="X4zvpAcgWdYJGE3rZAku-15" value="OnGameplayTaskDeactivated" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
@@ -673,115 +807,185 @@
                 <mxCell id="X4zvpAcgWdYJGE3rZAku-17" value="有锁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="1280" y="1690" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-1" value="PerformActivation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-1" value="PerformActivation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="354" y="680" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-3" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_Zz50gURGPLTKjzgj0c9-1" source="SeEceEhykzTKspny9k3_-5" target="BOfBiDZZlll-cYAtrqsV-2">
+                <mxCell id="SeEceEhykzTKspny9k3_-3" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="_Zz50gURGPLTKjzgj0c9-1" source="SeEceEhykzTKspny9k3_-5" target="BOfBiDZZlll-cYAtrqsV-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_Zz50gURGPLTKjzgj0c9-1" source="SeEceEhykzTKspny9k3_-5" target="SeEceEhykzTKspny9k3_-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_Zz50gURGPLTKjzgj0c9-1" source="SeEceEhykzTKspny9k3_-5" target="SeEceEhykzTKspny9k3_-1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_Zz50gURGPLTKjzgj0c9-1" source="SeEceEhykzTKspny9k3_-2" target="SeEceEhykzTKspny9k3_-5">
+                <mxCell id="SeEceEhykzTKspny9k3_-6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="_Zz50gURGPLTKjzgj0c9-1" source="SeEceEhykzTKspny9k3_-2" target="SeEceEhykzTKspny9k3_-5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-2" value="&lt;div&gt;ReadyForActivation&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-2" value="&lt;div&gt;ReadyForActivation&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="60" y="544" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-5" value="RequiresPriorityOrResourceManagement" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-5" value="RequiresPriorityOrResourceManagement" style="rhombus;whiteSpace=wrap;html=1;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="285" y="560" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-7" value="需不需要管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-7" value="需不需要管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="260" y="530" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-8" value="组件之前的处理 只是 对优先级和资源的控制和判断，这里开始执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-8" value="组件之前的处理 只是 对优先级和资源的控制和判断，这里开始执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="1390" y="1430" width="370" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="_Zz50gURGPLTKjzgj0c9-1" source="SeEceEhykzTKspny9k3_-10" target="BOfBiDZZlll-cYAtrqsV-3">
+                <mxCell id="SeEceEhykzTKspny9k3_-15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="_Zz50gURGPLTKjzgj0c9-1" source="SeEceEhykzTKspny9k3_-10" target="BOfBiDZZlll-cYAtrqsV-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-10" value="RemoveResourceConsumingTask" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-10" value="RemoveResourceConsumingTask" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="1670" y="1620" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-11" value="OnTaskEnded" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-11" value="OnTaskEnded" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="1490" y="1610" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-13" value="只有任务需要管理并完成的时候才会调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-13" value="只有任务需要管理并完成的时候才会调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="1385" y="1580" width="230" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-16" value="这里有添加和删除的操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-16" value="这里有添加和删除的操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="1190" y="630" width="150" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-17" value="主要关系要优先级和资源管理的任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-17" value="主要关系要优先级和资源管理的任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="1150" y="650" width="210" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="SeEceEhykzTKspny9k3_-18" value="接口 任务 任务组件 和拥有者都要实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_Zz50gURGPLTKjzgj0c9-1">
+                <mxCell id="SeEceEhykzTKspny9k3_-18" value="接口 任务 任务组件 和拥有者都要实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_Zz50gURGPLTKjzgj0c9-1" vertex="1">
                     <mxGeometry x="-340" y="90" width="220" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="BSdzsB7TzfeZGKPlb09K" name="GamePlayTag">
-        <mxGraphModel dx="1082" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1623" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="PDMpRTKKTmaykIHdqwZm-0"/>
                 <mxCell id="PDMpRTKKTmaykIHdqwZm-1" parent="PDMpRTKKTmaykIHdqwZm-0"/>
-                <mxCell id="PDMpRTKKTmaykIHdqwZm-2" value="FGameplayTagTableRow" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="PDMpRTKKTmaykIHdqwZm-2" value="FGameplayTagTableRow" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="80" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="PDMpRTKKTmaykIHdqwZm-3" value="FTableRowBase" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="PDMpRTKKTmaykIHdqwZm-3" value="FTableRowBase" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="80" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="PDMpRTKKTmaykIHdqwZm-4" value="FRestrictedGameplayTagTableRow" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="PDMpRTKKTmaykIHdqwZm-4" value="FRestrictedGameplayTagTableRow" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="80" y="190" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="PDMpRTKKTmaykIHdqwZm-5" value="FGameplayTagSource" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="PDMpRTKKTmaykIHdqwZm-5" value="FGameplayTagSource" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="330" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-0" value="GetOwnedGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-0" value="GetOwnedGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="1171" y="170" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-1" value="HasMatchingGameplayTag" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-1" value="HasMatchingGameplayTag" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="1181" y="280" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-2" value="HasAllMatchingGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-2" value="HasAllMatchingGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="1191" y="390" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-3" value="HasAnyMatchingGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-3" value="HasAnyMatchingGameplayTags" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="1191" y="500" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-4" value="UBlueprintGameplayTagLibrary" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-4" value="UBlueprintGameplayTagLibrary" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="1410" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-5" value="蓝图库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-5" value="蓝图库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="1405" y="40" width="50" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-6" value="UGameplayTagAssetInterface" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-6" value="UGameplayTagAssetInterface" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="1150" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-7" value="包含游戏标签的资产的接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-7" value="包含游戏标签的资产的接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="1120" y="40" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-8" value="EGameplayTagMatchType" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-8" value="EGameplayTagMatchType" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="610" y="100" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-9" value="检测类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-9" value="检测类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="620" y="70" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-10" value="EGameplayContainerMatchType" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-10" value="EGameplayContainerMatchType" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="590" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-11" value="容器检测类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-11" value="容器检测类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="585" y="180" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-12" value="FGameplayTag" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-12" value="FGameplayTag" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="580" y="330" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-13" value="FGameplayTagContainer" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-13" value="FGameplayTagContainer" style="whiteSpace=wrap;html=1;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="600" y="450" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-14" value="主要是结构体，读取编辑保存等相关内容&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="E3D2eZpfeMuJcuZ3hRRn-14" value="主要是结构体，读取编辑保存等相关内容&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="55" y="375" width="230" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="wHtPwwKXB4S3vUjFmwtF" name="GameplayEffect">
+        <mxGraphModel dx="2598" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-0"/>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-1" parent="WBT_XdkkgZ2B_TIhI0kD-0"/>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-2" value="列举了可能的游戏玩法影响大小的计算策略。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="100" y="150" width="260" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-3" value="EGameplayEffectMagnitudeCalculation" style="whiteSpace=wrap;html=1;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="160" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-4" value="EAttributeBasedFloatCalculationType" style="whiteSpace=wrap;html=1;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="120" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-6" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;列出可能的基于属性的浮点计算策略的枚举。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="-20" y="330" width="340" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-7" value="FGameplayEffectConstants" style="whiteSpace=wrap;html=1;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="420" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-8" value="FAttributeBasedFloat" style="whiteSpace=wrap;html=1;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="120" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-10" value="FScalableFloat" style="whiteSpace=wrap;html=1;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="-20" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-11" value="有和曲线相关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="-125" y="430" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-12" value="FGameplayEffectAttributeCaptureDefinition" style="whiteSpace=wrap;html=1;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="-35" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="WBT_XdkkgZ2B_TIhI0kD-13" value="FGameplayAttribute" style="whiteSpace=wrap;html=1;" vertex="1" parent="WBT_XdkkgZ2B_TIhI0kD-1">
+                    <mxGeometry x="-270" y="555" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="Z1tYeI4GBE6s50S7vACv" name="AttributeSet">
+        <mxGraphModel dx="1146" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="LevZotMznbj1cVnadFQh-0"/>
+                <mxCell id="LevZotMznbj1cVnadFQh-1" parent="LevZotMznbj1cVnadFQh-0"/>
+                <mxCell id="P8N1z-ATZO6ytd9o6pTo-0" value="FGameplayAttributeData" style="whiteSpace=wrap;html=1;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                    <mxGeometry x="130" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="P8N1z-ATZO6ytd9o6pTo-1" value="FGameplayAttribute" style="whiteSpace=wrap;html=1;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                    <mxGeometry x="320" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="P8N1z-ATZO6ytd9o6pTo-3" value="FProperty" style="whiteSpace=wrap;html=1;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                    <mxGeometry x="280" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="P8N1z-ATZO6ytd9o6pTo-5" value="脚本变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                    <mxGeometry x="330" y="20" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="P8N1z-ATZO6ytd9o6pTo-6" value="UAttributeSet" style="whiteSpace=wrap;html=1;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                    <mxGeometry x="490" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="P8N1z-ATZO6ytd9o6pTo-7" value="FAttributeMetaData" style="whiteSpace=wrap;html=1;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                    <mxGeometry x="140" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="P8N1z-ATZO6ytd9o6pTo-8" value="FTableRowBase" style="whiteSpace=wrap;html=1;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                    <mxGeometry x="140" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="P8N1z-ATZO6ytd9o6pTo-9" value="FAttributeSetInitter" style="whiteSpace=wrap;html=1;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                    <mxGeometry x="380" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

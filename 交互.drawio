@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="qTPcVuKwp9ivYJZm04wb" name="第 1 页">
-        <mxGraphModel dx="2775" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1934" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -218,7 +218,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="w_vAKF7s7eZD5ZB3kLO_" name="第 2 页">
-        <mxGraphModel dx="4089" dy="2492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3758" dy="2185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="AiCg92QeCK44xBm5qPly-0"/>
                 <mxCell id="AiCg92QeCK44xBm5qPly-1" parent="AiCg92QeCK44xBm5qPly-0"/>
@@ -951,7 +951,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="IlZiu2MPBp62PP9Y-6dU" name="第 3 页">
-        <mxGraphModel dx="5697" dy="2645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2065" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="8rYkP_rlxBz2SXgYndyW-0"/>
                 <mxCell id="8rYkP_rlxBz2SXgYndyW-1" parent="8rYkP_rlxBz2SXgYndyW-0"/>
@@ -1129,7 +1129,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="h6azy1-OYrIlTFqsngS8" name="交互区域">
-        <mxGraphModel dx="1852" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1879" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="XYra6PAROyFH4kF4Nqzn-0"/>
                 <mxCell id="XYra6PAROyFH4kF4Nqzn-1" parent="XYra6PAROyFH4kF4Nqzn-0"/>
@@ -1163,16 +1163,16 @@
                 <mxCell id="XYra6PAROyFH4kF4Nqzn-14" value="玩家进入交互状态隐藏交互碰撞区域" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XYra6PAROyFH4kF4Nqzn-1" vertex="1">
                     <mxGeometry x="490" y="50" width="210" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="IbZi_9A8XL7del1ySBTF-2" value="角色进入交互状态，关闭交互区域" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XYra6PAROyFH4kF4Nqzn-1">
+                <mxCell id="IbZi_9A8XL7del1ySBTF-2" value="角色进入交互状态，关闭交互区域" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XYra6PAROyFH4kF4Nqzn-1" vertex="1">
                     <mxGeometry x="260" y="490" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="IbZi_9A8XL7del1ySBTF-3" value="检测" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XYra6PAROyFH4kF4Nqzn-1">
+                <mxCell id="IbZi_9A8XL7del1ySBTF-3" value="检测" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XYra6PAROyFH4kF4Nqzn-1" vertex="1">
                     <mxGeometry x="260" y="530" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="IbZi_9A8XL7del1ySBTF-4" value="元素tick检测（后面想让角色去关闭触发区域）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XYra6PAROyFH4kF4Nqzn-1">
+                <mxCell id="IbZi_9A8XL7del1ySBTF-4" value="元素tick检测（后面想让角色去关闭触发区域）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XYra6PAROyFH4kF4Nqzn-1" vertex="1">
                     <mxGeometry x="260" y="450" width="260" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="IbZi_9A8XL7del1ySBTF-6" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;IsPassive&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XYra6PAROyFH4kF4Nqzn-1">
+                <mxCell id="IbZi_9A8XL7del1ySBTF-6" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;IsPassive&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XYra6PAROyFH4kF4Nqzn-1" vertex="1">
                     <mxGeometry x="-350" y="240" width="80" height="20" as="geometry"/>
                 </mxCell>
             </root>
